@@ -71,7 +71,7 @@ app.use(errorHandlerMiddleware);
 
 // for impl
 const CONNECTION_URL =
-  "mongodb+srv://MyApp123:MyApp123@cluster0.gbanz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "your url here";
 mongoose
   .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() =>
